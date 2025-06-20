@@ -1,0 +1,8 @@
+openai>=1.0.0
+google-api-python-client
+streamlit
+python-dotenv
+requests
+youtube-search
+groq==0.28.0
+httpx
