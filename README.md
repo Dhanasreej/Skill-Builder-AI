@@ -1,7 +1,6 @@
 **1. SkillBuilder AI**
 [Demo](https://skill-builder-ai-gcmvtvpgsqeyyytbkerxh5.streamlit.app/)
-
-    SkillBuilder AI is a web-based application designed to help learners generate personalized learning paths based on their current skills and future goals. The app offers structured roadmaps tailored for beginners and enhances learning through curated YouTube tutorials. Users can also download their personalized plans for offline access.
+SkillBuilder AI is a web-based application designed to help learners generate personalized learning paths based on their current skills and future goals. The app offers structured roadmaps tailored for beginners and enhances learning through curated YouTube tutorials. Users can also download their personalized plans for offline access.
 
 **2. Key Features**
    1. Accepts a user’s current skill and future goal.
@@ -43,6 +42,7 @@
    2. Backend/LLM: Groq’s LLaMA 3 (via Groq API)
    3. Video Search: YouTube Search Python library
    4. Environment Management: Python virtual environment + dotenv
+      
       
       
       
