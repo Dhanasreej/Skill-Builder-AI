@@ -41,7 +41,7 @@
    2. Backend/LLM: Groq’s LLaMA 3 (via Groq API)
    3. Video Search: YouTube Search Python library
    4. Environment Management: Python virtual environment + dotenv
-   5. 
+      
    
    
    
