@@ -16,8 +16,8 @@
    #### Install dependencies
    pip install -r requirements.txt
    #### Add API keys in a .env file
-   GROQ_API_KEY=groq_api_key
-   YOUTUBE_API_KEY=youtube_api_key
+   1. GROQ_API_KEY=groq_api_key
+   2. YOUTUBE_API_KEY=youtube_api_key
    #### Code in app.py
    (code)
    #### Run the application using
@@ -41,6 +41,7 @@
    2. Backend/LLM: Groq’s LLaMA 3 (via Groq API)
    3. Video Search: YouTube Search Python library
    4. Environment Management: Python virtual environment + dotenv
+      
       
       
       
