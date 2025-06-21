@@ -24,16 +24,16 @@
    streamlit run app.py
 
 4. **Usage Guide**
-   1.Launch the app using the command above.
-   2.Enter your current skill (e.g., Python, Cooking).
-   3.Enter your desired goal (e.g., Become a Data Analyst, Become a Chef).
-   4.Click the “Get Learning Path” button.
-   5.The app generates:
-     1. A structured, beginner-friendly learning roadmap.
-     2. Top 5 curated YouTube tutorials related to your goal.
-   6.Download your learning path using the download button for offline use.
+   1. Launch the app using the command above.
+   2. Enter your current skill (e.g., Python, Cooking).
+   3. Enter your desired goal (e.g., Become a Data Analyst, Become a Chef).
+   4. Click the “Get Learning Path” button.
+   5. The app generates:
+      -A structured, beginner-friendly learning roadmap.
+      -Top 5 curated YouTube tutorials related to your goal.
+   6. Download your learning path using the download button for offline use.
    
-5. **Architecture Overview**
+6. **Architecture Overview**
     User Input -> Streamlit UI -> Groq API (LLaMA 3) -> YouTubeSearchPython -> Output Display + Download Option
    
 7. **Tech Stack**
@@ -41,6 +41,7 @@
    Backend/LLM: Groq’s LLaMA 3 (via Groq API)
    Video Search: YouTube Search Python library
    Environment Management: Python virtual environment + dotenv
+   
    
    
 
