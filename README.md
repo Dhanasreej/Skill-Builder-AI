@@ -34,13 +34,14 @@
    6. Download your learning path using the download button for offline use.
    
 **6. Architecture Overview**
-    User Input -> Streamlit UI -> Groq API (LLaMA 3) -> YouTubeSearchPython -> Output Display + Download Option
+    1.  User Input -> Streamlit UI -> Groq API (LLaMA 3) -> YouTubeSearchPython -> Output Display + Download Option
    
 **7. Tech Stack**
    1. Frontend: Streamlit
    2. Backend/LLM: Groq’s LLaMA 3 (via Groq API)
    3. Video Search: YouTube Search Python library
    4. Environment Management: Python virtual environment + dotenv
+      
       
       
       
