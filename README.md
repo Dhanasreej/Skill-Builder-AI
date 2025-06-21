@@ -11,16 +11,16 @@
 **3. Setup & Installation**
    #### Create the virtual environment
    python -m venv venv
-   **Activate the virtual environment on Windows:**
+   #### Activate the virtual environment on Windows:
    venv\Scripts\activate  Example: (venv) PS D:\Downloads\skillbuilder>
-   **Install dependencies**
+   #### Install dependencies
    pip install -r requirements.txt
-   **Add API keys in a .env file**
+   #### Add API keys in a .env file
    GROQ_API_KEY=groq_api_key
    YOUTUBE_API_KEY=youtube_api_key
-   **Code in app.py**
+   #### Code in app.py
    (code)
-   **Run the application using**
+   #### Run the application using
    streamlit run app.py
 
 **4. Usage Guide**
@@ -41,6 +41,7 @@
    2. Backend/LLM: Groq’s LLaMA 3 (via Groq API)
    3. Video Search: YouTube Search Python library
    4. Environment Management: Python virtual environment + dotenv
+      
       
       
       
